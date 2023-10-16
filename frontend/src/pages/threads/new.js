@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Layout from "../../components/layout";
 import { useState } from "react";
 import Link from "next/link";
-import { postThread } from "../../libs/response";
+import { postThread } from "../../libs/thread";
 
 const NewThread = () => {
   const router = useRouter();
